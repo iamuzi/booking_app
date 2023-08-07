@@ -1,5 +1,5 @@
 import 'package:booking_app/screens/bottom_bar.dart';
-import 'package:booking_app/screens/splash.dart';
+
 import 'package:booking_app/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 

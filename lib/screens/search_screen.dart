@@ -111,7 +111,7 @@ class SearchScreen extends StatelessWidget {
                         width: size.width * .44,
                         padding: EdgeInsets.all(AppLayout.getHeight(15)),
                         decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 104, 167, 167),
+                          color: const Color.fromARGB(255, 104, 167, 167),
                           borderRadius: BorderRadius.circular(
                             AppLayout.getHeight(18),
                           ),
@@ -147,7 +147,7 @@ class SearchScreen extends StatelessWidget {
                           decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               border: Border.all(
-                                  width: 18, color: Color(0xff189999))),
+                                  width: 18, color: const Color(0xff189999))),
                         ),
                       ),
                     ],
@@ -163,7 +163,7 @@ class SearchScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius:
                             BorderRadius.circular(AppLayout.getHeight(18)),
-                        color: Color(0xffec6545)),
+                        color: const Color(0xffec6545)),
                     child: Column(
                       children: [
                         Text(
